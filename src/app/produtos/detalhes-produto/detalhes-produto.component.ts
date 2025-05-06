@@ -6,9 +6,10 @@ import { IProduto, IProdutoCarrinho } from 'src/app/produtos';
 import { ProdutosService } from 'src/app/produtos.service';
 
 @Component({
-  selector: 'app-detalhes-produto',
-  templateUrl: './detalhes-produto.component.html',
-  styleUrls: ['./detalhes-produto.component.css']
+    selector: 'app-detalhes-produto',
+    templateUrl: './detalhes-produto.component.html',
+    styleUrls: ['./detalhes-produto.component.css'],
+    standalone: false
 })
 export class DetalhesProdutoComponent implements OnInit{
 produto: IProduto | undefined;

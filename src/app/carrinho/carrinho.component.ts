@@ -4,9 +4,10 @@ import { IProdutoCarrinho } from '../produtos';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-carrinho',
-  templateUrl: './carrinho.component.html',
-  styleUrls: ['./carrinho.component.css']
+    selector: 'app-carrinho',
+    templateUrl: './carrinho.component.html',
+    styleUrls: ['./carrinho.component.css'],
+    standalone: false
 })
 export class CarrinhoComponent implements OnInit {
   itensCarrinho: IProdutoCarrinho[] = [];
