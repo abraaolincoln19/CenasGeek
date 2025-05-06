@@ -22,14 +22,15 @@
     "@angular/platform-browser-dynamic": "^16.2.10",
     "@angular/router": "^16.2.10",
     "esbuild": "^0.25.1",
+    "http-proxy-middleware": "~3.0.4",
     "ngx-mask": "^16.3.9",
     "rxjs": "~7.8.0",
-    "vite": "^6.2.2",
+    "vite": "~6.2.3",
     "ws": "^8.18.0",
     "zone.js": "~0.13.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^19.2.3",
+    "@angular-devkit/build-angular": "~16.2.12",
     "@angular/cli": "~16.2.7",
     "@angular/compiler-cli": "^16.2.10",
     "@types/jasmine": "^5.1.1",
