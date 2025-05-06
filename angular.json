@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Cenas-Geek:build:production"
+              "buildTarget": "Cenas-Geek:build:production"
             },
             "development": {
-              "browserTarget": "Cenas-Geek:build:development"
+              "buildTarget": "Cenas-Geek:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Cenas-Geek:build"
+            "buildTarget": "Cenas-Geek:build"
           }
         },
         "test": {
